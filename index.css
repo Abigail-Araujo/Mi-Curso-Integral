@@ -726,3 +726,157 @@
   height: 50px;
   transition: background-color 0.2s ease;
 }
+
+@media (max-width: 1014px) {
+  .imginicio-icon{
+    position: absolute;
+    top: 550px;
+    left: calc(30%);
+    border-radius: var(--br-31xl);
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+  }
+.bienvenido,
+.somos-tu-solucin {
+  position: absolute;
+  top: 175px;
+  left: calc(30% + 55px);
+  font-size: var(--tituloprincipal-size);
+  font-weight: 700;
+  font-family: inherit;
+}
+.somos-tu-solucin {
+  top: 260px;
+  font-size: var(--titulosboton-size);
+  font-weight: 600;
+  display: inline-block;
+  width: 328px;
+}
+.dictamos-cursos-presenciales-container {
+  margin: 0;
+  position: absolute;
+  top: 355px;
+  left: calc(30% + 55px);
+  display: inline-block;
+  text-align:justify;
+  width: 328px;
+}
+.tcontact,
+.tcursos {
+  margin: 0;
+  position: absolute;
+  top: 1085px;
+  left: calc(30% - 80px);
+  font-size: var(--titulosseccion-size);
+  font-weight: 700;
+  font-family: inherit;
+  width: 600px;
+  text-align: center;
+}
+.tcontact {
+  top: 3970px;
+}
+.binformatica {
+  top: 1170px;
+  left: calc(30% - 5px);
+}
+.bredesydisenio {
+  top: 1400px;
+  left: calc(30% - 5px);
+}
+.bcomercio {
+  top: 1860px;
+  left: calc(30% - 5px);
+}
+.bcripto {
+  top: 1630px;
+  left: calc(30% - 5px);
+}
+.bfinanzas {
+  top: 2090px;
+  left: calc(30% - 5px);
+}
+.bimpuestos {
+  top: 2320px;
+  left: calc(30% - 5px);
+}
+.bbienes {
+  top: 2540px;
+  left: calc(30% - 5px);
+}
+.blaboral {
+  top: 2770px;
+  left: calc(30% - 5px);
+}
+.binventario {
+  top: 3000px;
+  left: calc(30% - 5px);
+}
+.boficios {
+  top: 3230px;
+  left: calc(30% - 5px);
+}
+.bseguridad {
+  top: 3460px;
+  left: calc(30% - 5px);
+}
+.bdesarrollo {
+  top: 3690px;
+  left: calc(30% - 5px);
+}
+.imgcontact-icon,
+.textcontact {
+  left: calc(30%);
+}
+.textcontact {
+  margin: 0;
+  top: 4520px;
+  display: inline-block;
+  width: 450px;
+  text-align: justify;
+}
+.imgcontact-icon {
+  top: 4050px;
+  left: calc(30%);
+  width: 450px;
+  height: 450px;
+}
+.escribenos-un-correo,
+.nuestros-telfonos-0414-13266-container {
+  top: 4680px;
+  left: calc(30%);
+  width: 450px;
+}
+.escribenos-un-correo {
+  top: 4610px;
+  text-align: justify;
+}
+.redes1 {
+  position: absolute;
+  top: 4780px;
+  left: calc(30%);
+  width: 450px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 20px 0;
+}
+.buttoncontact {
+  top: 4930px;
+  left: calc(30%);
+  width: 450px;
+  height: 70px;
+}
+.btcontact{
+  top: 16px;
+}
+.salto{
+  position: absolute;
+  top: 5050px;
+  width: 100%;
+  height: 30px;
+}
+}
