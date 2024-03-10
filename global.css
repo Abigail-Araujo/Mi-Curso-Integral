@@ -1,0 +1,38 @@
+html{
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-attachment: fixed;
+  height: 100%;
+  background-image: linear-gradient(180deg, #112056, #329e2f);
+  background-repeat: no-repeat;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--blanco);
+}
+
+:root {
+  /* fonts */
+  --link: Poppins;
+
+  /* font sizes */
+  --titulosboton-size: 24px;
+  --link-size: 16px;
+  --titulosseccion-size: 36px;
+  --tituloprincipal-size: 50px;
+
+  /* Colors */
+  --blanco: #fff;
+  --naranja-mici: #f58f32;
+  --color-gainsboro: rgba(217, 217, 217, 0);
+  --verde-mici: #329e2f;
+
+  /* Gaps */
+  --gap-0: 0px;
+
+  /* Border radiuses */
+  --br-6xl: 25px;
+  --br-31xl: 50px;
+}
