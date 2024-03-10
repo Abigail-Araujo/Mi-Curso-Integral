@@ -727,7 +727,7 @@
   transition: background-color 0.2s ease;
 }
 
-@media (max-width: 1014px) {
+@media (max-width: 999px) {
   .imginicio-icon{
     position: absolute;
     top: 550px;
